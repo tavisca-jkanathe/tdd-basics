@@ -25,7 +25,7 @@ namespace BowlingBall
                 }
                 else if(rolls[frameIndex] + rolls[frameIndex + 1] == 10)
                 {
-                    score = sccore + 10 + rolls[frameIndex + 2];
+                    score = score + 10 + rolls[frameIndex + 2];
                     frameIndex += 2;
                 }
                 else
